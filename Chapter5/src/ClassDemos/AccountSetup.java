@@ -1,5 +1,6 @@
 package ClassDemos;
 
+import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class AccountSetup 
@@ -9,6 +10,8 @@ public class AccountSetup
 	{
 		String userName, password;//Declared two variables
 		Scanner input = new Scanner(System.in);
+		
+		DecimalFormat dc = new DecimalFormat("0.0");
 		
 		//Get user name
 		System.out.println("Enter a user name: ");
@@ -25,6 +28,7 @@ public class AccountSetup
 			System.out.println("Enter a password that is at least 8 characters: ");
 			password = input.next();//Store the new password
 		}
+		
 		
 		password = password.toLowerCase();//Convert password to lowercase
 		
