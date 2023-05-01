@@ -24,3 +24,14 @@ public class TestCircle
 	}
 
 }
+
+/* Screen Dump
+Rectangle has length3.0and width 5.0
+Rectangle area: 15.0
+Rectangles are NOT equal.
+
+_____________________________________
+ 
+ 
+ 
+ */

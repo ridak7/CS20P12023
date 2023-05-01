@@ -44,4 +44,30 @@ public class Rectangle
 		
 		return rectArea;
 	}
+	
+	public boolean equals(Object r)
+	{
+		Rectangle testR = (Rectangle) r;
+		
+		if(testR.getLength() == length && testR.getWidth() == width)
+		{
+			return true;
+		}
+		else
+		{
+			return false;
+		}
+	}
+	
+	public String toString()
+	{
+		String rectString;
+		
+		rectString = "Rectangle has length" + length + 
+				"and width " + width;
+		
+		return rectString;
+	}
+	
+	
 }
